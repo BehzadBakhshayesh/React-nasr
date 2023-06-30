@@ -1,0 +1,27 @@
+
+
+@mixin flx {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Home{
+    .CardContainer{
+        @include flx;
+        .Card{
+            width: 240px;
+            .Meta{
+                @include flx; 
+            }
+        }
+        
+    }
+    .ComparisonContainer{
+        @include flx;
+        margin-top: 100px;
+        .Table{
+            width: 100%;
+        }
+    }
+}

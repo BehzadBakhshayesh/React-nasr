@@ -1,0 +1,50 @@
+//====================================================
+//FONTS
+//====================================================
+
+//====================================================
+//GENERAL
+//====================================================
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+  font-size: 10px;
+  background-color: #f0f2f2;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+button {
+  border: none;
+}
+a,
+button {
+  cursor: pointer;
+}
+a:active {
+  color: #fff;
+}
+a:visited {
+  color: #fff;
+}
+input,
+select,
+button {
+  outline: none;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+
